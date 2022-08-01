@@ -185,6 +185,7 @@ IP Address is divided into Network and Host Portions
 | Class B | N.N.H.H | Hosts bits = 16 | 65536    | 65534               |
 | Class A | N.H.H.H | Hosts bits = 24 | 16777216 | 16777214            |
 
+<br>
 
 ### Network ID:
 <ul>
@@ -201,3 +202,41 @@ IP Address is divided into Network and Host Portions
         Only valid IP addresses are assigned to hosts/clients
     </li>
 </ul>
+
+
+<br>
+
+### Broadcast ID:
+<ul>
+    <li>
+        Last IP of the range
+    </li>
+    <li>
+        Used to send broadcast to all with in the same network 
+    </li>
+    <li>
+        Cannot assign this address to any device in the network
+    </li>
+    <li>
+        Only valid IP addresses are assigned to hosts/clients
+    </li>
+</ul>
+
+
+<br>
+
+## Subnet-mask
+
+Subnet Mask differentiates the network and ho  portion.
+
+<br>
+
+Class A Subnet mask is 255.0.0.0
+
+<br>
+
+Class B Subnet mask is 255.255.0.0
+
+<br>
+
+Class C Subnet mask is 255.255.255.0
