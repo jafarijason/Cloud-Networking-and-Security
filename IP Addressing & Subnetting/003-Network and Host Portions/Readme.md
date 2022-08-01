@@ -167,3 +167,37 @@ IP Address is divided into Network and Host Portions
 <br>
 <br>
 <br>
+
+## Number of Hosts Addresses - Class A, B, C
+
+<ul>
+    <li>
+        First and last address in each range are reserved for Network ID and Broadcast ID.
+    </li>
+    <li>
+        Cannot assign this address to any device in the network    
+    </li>
+</ul>
+
+|         |         |                 |          | Valid hosts numbers |
+| ------- | ------- | --------------- | -------- | ------------------- |
+| Class C | N.N.N.H | Hosts bits = 8  | 256      | 254                 |
+| Class B | N.N.H.H | Hosts bits = 16 | 65536    | 65534               |
+| Class A | N.H.H.H | Hosts bits = 24 | 16777216 | 16777214            |
+
+
+### Network ID:
+<ul>
+    <li>
+        First IP of the range
+    </li>
+    <li>
+        Reserved for identifying complete network
+    </li>
+    <li>
+        Cannot assign this address to any device in the network
+    </li>
+    <li>
+        Only valid IP addresses are assigned to hosts/clients
+    </li>
+</ul>
