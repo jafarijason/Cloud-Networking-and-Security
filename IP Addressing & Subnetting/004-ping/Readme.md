@@ -103,3 +103,17 @@
         <br>
     </li>
 </ul>
+
+
+## Ping - Destination Host Unreachable
+
+Can not find the route to the destination IP address(destination host)
+
+<ul>
+    <li>
+        The local system has no route to desired destination
+    </li>
+    <li>
+        A remote router reports that it has no route to the destination
+    </li>
+</ul>
